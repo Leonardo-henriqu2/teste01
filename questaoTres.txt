@@ -1,3 +1,15 @@
-Primeiramente, precisamos criar um arquivo no projeto chamado models para definir a estruturação desses dados no caso produtos, a partir disso definimos o modelo, ou seja os atributos que compõe o produtos como: Id, nome, descrição, categoria, preço e avaliação, nessa situação isso provavelmente já vai estar pronto, porém vale a pena revisar e conferir se está tudo nos padrões corretos.
-Em seguida, eu vou definir a rota em questão “produts/filter” para o endpoint, depois os parâmetros que são opcionais como: “/category”, “/min_price”, “/max_price” e “/rating” na Url, em todos vamos utilizar o método GET para trazer os dados respectivos e exibir no Front-end da nossa aplicação.
-A parte mais importante disso tudo são as validações, pois impedem os usuários de passarem dados incongruentes evitando assim falhas do sistema por causa dessas informações inadequadas, na minha concepção. Nessa situação eu instalaria e usaria uma biblioteca que usamos na aulas da faculdade chamada Joi para Node.js muito utilizada no mercado, com ela podemos verificar os tipos dos dados recebidos pelo usuário como: String e number e validar se os valores dos parâmetros estão dentro de um intervalo válido (por exemplo, preço maior que zero).
+Primeiramente, precisamos criar um arquivo no projeto chamado models para definir a estruturação desses
+dados no caso produtos, a partir disso definimos o modelo, ou seja os atributos que compõe o produtos
+como: Id, nome, descrição, categoria, preço e avaliação, nessa situação isso provavelmente já vai 
+estar pronto, porém vale a pena revisar e conferir se está tudo nos padrões corretos.
+Em seguida, eu vou definir a rota em questão “produts/filter” para o endpoint, depois os parâmetros que 
+são opcionais como: “/category”, “/min_price”, “/max_price” e “/rating” na Url, em todos vamos utilizar 
+o método GET para trazer os dados respectivos e exibir no Front-end da nossa aplicação.
+A parte mais importante disso tudo são as validações, pois impedem os usuários de passarem dados 
+incongruentes evitando assim falhas do sistema por causa dessas informações inadequadas, na minha 
+concepção.
+Nessa situação eu instalaria e usaria uma biblioteca que usamos na aulas da faculdade chamada
+Joi para Node.js muito utilizada no mercado, com ela podemos verificar os tipos dos dados recebidos 
+pelo usuário como: String e number e validar se os valores dos parâmetros estão dentro de um intervalo 
+válido (por exemplo, preço maior que zero).
+
