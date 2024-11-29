@@ -1,0 +1,20 @@
+Relatório sobre erro apresentado na Tela de login
+
+Quando o usuário digitar suas credenciais login e senha válidos, bom deixar isso esclarecido e
+depois de clicar no botão "Entrar", o sistema apresenta uma mensagem de erro: "Erro interno do servidor".
+O que devieria acontecer como resultado esperado obviamente seria ele ter acesso a sua conta e ser redirecionado para a página inicial ou para a área restrita, conforme a configuração do sistema.
+
+Resultado Atual:
+
+Em vez de realizar o login, o sistema exibe uma mensagem de erro genérica: "Erro interno do servidor".
+
+Outras Informações:
+
+Navegador: Google Chrome (versão 118.0.5993.127)
+Sistema Operacional: Windows 11
+Ambiente: Ambiente de testes (staging)
+
+Informações Adicionais:
+O erro ocorre consistentemente ao utilizar qualquer combinação de credenciais válidas.
+Não há informações mais específicas sobre a natureza do erro no console do navegador.
+O sistema não apresenta nenhum log de erros acessível ao usuário.
